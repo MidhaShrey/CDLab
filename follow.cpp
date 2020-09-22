@@ -16,7 +16,6 @@ int main()
     printf(" Enter %d productions\nProduction with multiple terms should be give as separate productions \n", n);
     for (i = 0; i < n; i++)
         scanf("%s%c", a[i], &ch);
-    // gets(a[i]);
     do
     {
         m = 0;
