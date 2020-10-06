@@ -12,7 +12,8 @@ int isKeyword(char buffer[]){
                             "unsigned","void","volatile","while"};
     int i, flag = 0;
     for(i = 0; i < 32; ++i){
-        if(strcmp(keywords[i], buffer) == 0){
+        if(strcmp(keywords[i], buffer) == 0)
+        {
             flag = 1;
             break;
         }
