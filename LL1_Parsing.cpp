@@ -6,11 +6,10 @@
 using namespace std;
 int main()
 {
-    //clrscr();
     int i=0,j=0,k=0,m=0,n=0,o=0,o1=0,var=0,l=0,f=0,c=0,f1=0;
     char     str[30],str1[40]="E",temp[20],temp1[20],temp2[20],tt[20],t3[20];
-    strcpy(temp1,'\0');
-    strcpy(temp2,'\0');
+    strcpy(temp1,"*Vt");
+    strcpy(temp2,"<id>");
     char t[10];
     char array[6][5][10] = {
                  "NT", "<id>","+","*",";",
@@ -175,4 +174,4 @@ while(i<strlen(str))
           cout << "\n\n\tENTERED STRING IS VALID";
     getch();
     return 0; 
- }
+}
