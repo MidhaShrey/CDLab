@@ -11,23 +11,23 @@ int main()
     char choice; 
     char c;
     char result[20];
-    printf("How many number of productions ? :");
+    cout<<"How many number of productions ? :";
     scanf(" %d",&numOfProductions);
     for(i=0;i<numOfProductions;i++)//read production string eg: E=E+T
     {
-        printf("Enter productions Number %d : ",i+1);
+        cout<<"Enter productions Number %d : ",i+1;
         scanf(" %s",productionSet[i]);
     }
     do
     {
-        printf("\n Find the FIRST of  :");
+        cout<<"\n Find the FIRST of  :";
         scanf(" %c",&c);
         FIRST(result,c); //Compute FIRST; Get Answer in 'result' array
-        printf("\n FIRST(%c)= { ",c);
+        cout<<"\n FIRST(%c)= { ",c;
         for(i=0;result[i]!='\0';i++)
-        printf(" %c ",result[i]);       //Display result
-        printf("}\n");
-         printf("press 'y' to continue : ");
+        cout<<" %c ",result[i];       //Display result
+        cout<<"}\n";
+         cout<<"press 'y' to continue : ";
         scanf(" %c",&choice);
     }
     while(choice=='y'||choice =='Y');

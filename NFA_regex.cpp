@@ -65,7 +65,6 @@ int main()
  cout<<"\n"<<init+3<<"--"<<c<<"-->"<<init+6;
  cout<<"\n"<<init+5<<"--"<<c<<"-->"<<init+6;
  cout<<"\n"<<init+6<<"--"<<c<<"-->"<<init+1;
- cout<<"\n"<<init+6<<"--"<<c<<"-->"<<fin;
- getch();
+ cout<<"\n"<<init+6<<"--"<<c<<"-->"<<fin;  
  return 0;
 }
